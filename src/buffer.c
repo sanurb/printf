@@ -6,7 +6,7 @@
 // Initializes a buffer with the specified initial size.
 // Returns a pointer to the buffer, or NULL if allocation fails.
 buffer_t *init_buffer(size_t initial_size) {
-    buffer_t *buffer = (buffer_t *)malloc(sizeof(buffer_t));
+    buffer_t *buffer = malloc(sizeof(buffer_t));
     if (!buffer) {
         handle_error(MEMORY_ALLOCATION_ERROR, "Failed to allocate buffer structure");
         return NULL;
@@ -41,7 +41,7 @@ void append_to_buffer(buffer_t *buffer, const char *str, size_t len) {
 // Expands the buffer to accommodate at least extra_len more bytes.
 // The buffer size is usually doubled to minimize reallocations.
 void expand_buffer(buffer_t *buffer, size_t extra_len) {
-    size_t new_size = buffer->size * 2 + extra_len;
+    const size_t new_size = buffer->size * 2 + extra_len;
     char *new_data = (char *)realloc(buffer->data, new_size);
     if (!new_data) {
         handle_error(MEMORY_ALLOCATION_ERROR, "Failed to expand buffer");

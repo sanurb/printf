@@ -3,19 +3,17 @@
 int main() {
     initialize_printf();  // Initialize resources if needed.
 
-    // Test integer output
-    my_printf("Integer: %d\n", 123);
+    // Test multiple format specifiers in a single string.
+    my_printf("String: %s\n", "Hello World!");
+    my_printf("Char: %c\n", 'A');
+    my_printf("Integer: %i\n", 123);
+    my_printf("Binary: %b\n", 42);
+    my_printf("Hex (lower): %x\n", 255);
+    my_printf("Hex (upper): %X\n", 255);
+    my_printf("Octal: %o\n", 123);
+    my_printf("ROT13: %R\n", "Hello World!");
 
-    // Test string output
-    my_printf("String: %s\n", "Hello, World!");
-
-    // Test hexadecimal output
-    my_printf("Hexadecimal: %x\n", 255);
-
-    // Test more complex cases
-    //my_printf("Multiple formats: %d, %s, %x\n", 42, "test", 255);
-
-    cleanup_printf();  // Cleanup resources if needed.
+    cleanup_printf();
 
     return 0;
 }

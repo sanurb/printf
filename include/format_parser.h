@@ -8,7 +8,8 @@
 // Constants for format specifier lengths and other important values.
 #define FORMAT_SPECIFIER_START '%'
 #define DEFAULT_HASHMAP_CAPACITY 16  // Initial hashmap capacity.
-#define INVALID_SPECIFIER_LENGTH 1
+#define INVALID_SPECIFIER_LENGTH 1  // Default length for invalid specifiers.
+#define MAX_SPECIFIER_LENGTH 2  // Maximum length of a valid format specifier, including '%'.
 
 // Structure to hold information about a parsed format specifier.
 typedef struct {
@@ -20,6 +21,11 @@ typedef struct {
 
 // Typedef for a function pointer that handles a specific format specifier.
 typedef void (*format_handler_t)(va_list args, buffer_t *buffer);
+
+// Wrapper structure to store format handlers in the hashmap.
+typedef struct {
+    format_handler_t handler;  // Directly store the function pointer here.
+} function_wrapper_t;
 
 // Initializes the hashmap of format specifiers. Should be called before using the parser.
 void initialize_format_specifiers(void);
