@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="RiderCppLiveTemplatesSettings" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=AFEB42E74EF27F4CA77AB4FFFEA6B834/Reformat/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=26BE0E23DA09D941A4362AAE8091A51C/Description/@EntryValue" value="Standard Starter Template" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CE5AFF004FD564399B6CAB2C6BC46FB/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=AFEB42E74EF27F4CA77AB4FFFEA6B834/@KeyIndexDefined" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=26BE0E23DA09D941A4362AAE8091A51C/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=AFEB42E74EF27F4CA77AB4FFFEA6B834/Shortcut/@EntryValue" value="ss" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=AFEB42E74EF27F4CA77AB4FFFEA6B834/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CE5AFF004FD564399B6CAB2C6BC46FB/Reformat/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CE5AFF004FD564399B6CAB2C6BC46FB/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=26BE0E23DA09D941A4362AAE8091A51C/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=AFEB42E74EF27F4CA77AB4FFFEA6B834/Applicability/=Live/@EntryIndexRemoved" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CE5AFF004FD564399B6CAB2C6BC46FB/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CE5AFF004FD564399B6CAB2C6BC46FB/@KeyIndexDefined" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=26BE0E23DA09D941A4362AAE8091A51C/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=AFEB42E74EF27F4CA77AB4FFFEA6B834/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=AFEB42E74EF27F4CA77AB4FFFEA6B834/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CE5AFF004FD564399B6CAB2C6BC46FB/Shortcut/@EntryValue" value="ss" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=26BE0E23DA09D941A4362AAE8091A51C/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=26BE0E23DA09D941A4362AAE8091A51C/Shortcut/@EntryValue" value="sst" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CE5AFF004FD564399B6CAB2C6BC46FB/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=26BE0E23DA09D941A4362AAE8091A51C/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=26BE0E23DA09D941A4362AAE8091A51C/Text/@EntryValue" value="#include &lt;stdio.h&gt;&#10;&#10;int main(int argc, char *argv[]) {&#10;    $END$&#10;    return 0;&#10; }" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=26BE0E23DA09D941A4362AAE8091A51C/Applicability/=Live/@EntryIndexRemoved" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CE5AFF004FD564399B6CAB2C6BC46FB/Applicability/=Live/@EntryIndexRemoved" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=26BE0E23DA09D941A4362AAE8091A51C/Reformat/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=AFEB42E74EF27F4CA77AB4FFFEA6B834/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=370840B63779B24EAF52E1341ADA5479/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=370840B63779B24EAF52E1341ADA5479/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=370840B63779B24EAF52E1341ADA5479/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=370840B63779B24EAF52E1341ADA5479/Text/@EntryValue" value="#include &lt;stdio.h&gt;&#10;#include &lt;stdlib.h&gt;&#10;&#10;int main(int argc, char *argv[]) {&#10;    $END$&#10;    return EXIT_SUCCESS;&#10;}" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=370840B63779B24EAF52E1341ADA5479/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=370840B63779B24EAF52E1341ADA5479/Shortcut/@EntryValue" value="libsst" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=370840B63779B24EAF52E1341ADA5479/Description/@EntryValue" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=370840B63779B24EAF52E1341ADA5479/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=370840B63779B24EAF52E1341ADA5479/Reformat/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=370840B63779B24EAF52E1341ADA5479/Applicability/=Live/@EntryIndexRemoved" />
+  </component>
+  <component name="CMakePythonSetting">
+    <option name="pythonIntegrationState" value="YES" />
+  </component>
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+</project>
