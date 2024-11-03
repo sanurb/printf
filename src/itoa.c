@@ -1,7 +1,8 @@
 #include <stdbool.h>
 #include "../include/itoa.h"
 
-// Helper function to reverse a string in place.
+// Reverses a string in place. This is necessary because digits are
+// appended in reverse order during conversion.
 static void reverse_string(char *str, int length) {
     int start = 0;
     int end = length - 1;
@@ -14,41 +15,40 @@ static void reverse_string(char *str, int length) {
     }
 }
 
-// Converts an integer 'value' to a string representation in the given 'base'.
-// Supports both decimal (base 10) and hexadecimal (base 16) conversion.
+// Converts an integer 'value' to a string in the specified 'base'.
+// Supports base 10 (decimal) and base 16 (hexadecimal).
+// Handles negative values only in base 10.
 char *itoa(int value, char *str, int base) {
     int i = 0;
     bool is_negative = false;
 
-    // Handle 0 explicitly to avoid returning an empty string.
+    // Explicitly handle '0' case as it doesn't enter the loop below.
     if (value == 0) {
         str[i++] = '0';
         str[i] = '\0';
         return str;
     }
 
-    // In base 10, handle negative integers.
+    // Only base 10 supports negative values; set flag and convert to positive.
     if (value < 0 && base == 10) {
         is_negative = true;
         value = -value;
     }
 
-    // Process individual digits.
+    // Convert the number to the specified base by extracting digits.
     while (value != 0) {
         int remainder = value % base;
         str[i++] = (remainder > 9) ? (remainder - 10) + 'a' : remainder + '0';
         value = value / base;
     }
 
-    // If the number was negative, append the minus sign.
+    // Add negative sign for decimal numbers if needed.
     if (is_negative) {
         str[i++] = '-';
     }
 
-    // Null-terminate the string.
+    // Null-terminate before reversing the string to get the final result.
     str[i] = '\0';
-
-    // Reverse the string to get the correct result.
     reverse_string(str, i);
 
     return str;
